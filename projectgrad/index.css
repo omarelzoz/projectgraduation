@@ -1,0 +1,122 @@
+/* .containerbody{
+margin: 0;
+padding: 0;
+position: relative;
+    background-color: #CCD9D3;
+    scroll-behavior: smooth;
+    
+} */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #CCD9D3;
+    scroll-behavior: smooth;
+}
+
+.containerbody {
+    position: relative;
+    background-color: #CCD9D3;
+    min-height: 100%; /* Ensure the content area fills the viewport */
+}
+#top{
+    position: fixed;
+    bottom:10% ;
+    right: 10%;
+    width: 5px;
+    height: 5px;
+}
+.navbar-green {
+    background-color: #1A553B; /* Green background color */
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text color */
+    margin: 0 50px; /* Margin between items */
+    padding: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Light gray color on hover */
+    border-bottom: solid 3px #ffffff;
+    
+}
+
+.navbar-brand {
+
+ padding: 15px;
+ color:white; /* White text color for brand */
+}
+
+.navbar-brand:hover{
+    color: beige;
+}
+
+.containerimg {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+   height:10% ;
+   
+}
+
+.containerimg img {
+    width: 100%; /* Make image responsive */
+    height: 1000px;
+
+
+}
+.profile-link {
+    color: white; /* White text color for the profile link */
+    margin-right: 20px; /* Adjust margin if needed */
+}
+
+.dropdown-menu {
+    background-color: #1A553B; /* Green dropdown background */
+    border: none;
+}
+
+.dropdown-menu a {
+    color: #ffffff; /* White text color for dropdown items */
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #085228; /* Darker green on hover */
+    color: #ffffff;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 60px; /* Font size */
+    font-weight: bold;
+    opacity: 0.7;
+    
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5); /* Optional: for better readability */
+}
+.title{
+margin: 70px;
+text-align: center;
+color: #085228;
+}
+
+.footercolor{
+    color: #ffffff;
+background-color: #1A553B;
+position: absolute;
+width: 100%;
+padding-top: 30px ;
+
+}
+
+.card-button {
+    margin-top: 20px; /* Space between button and card content */
+}
+
